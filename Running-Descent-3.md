@@ -1,6 +1,6 @@
 # Table of Contents
-1. [System Requirements](https://github.com/DescentDevelopers/Descent3/wiki/Descent-3-Open-Source-Wiki#system-requirements)
-2. [Command-Line Options](https://github.com/DescentDevelopers/Descent3/wiki/Descent-3-Open-Source-Wiki#command-line-options)
+1. [System Requirements](https://github.com/DescentDevelopers/Descent3/wiki/Running-Descent-3#system-requirements)
+2. [Command-Line Options](https://github.com/DescentDevelopers/Descent3/wiki/Running-Descent-3#command-line-options)
 
 ## System Requirements
 Minimum:

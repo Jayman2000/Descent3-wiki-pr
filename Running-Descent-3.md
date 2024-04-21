@@ -79,7 +79,7 @@ The following command-line options are available in Descent 3. You can set comma
 - `-usesmoothing`: Enables code to smooth the interpolation for fast-moving objects. This will fix "skipping" problems with fast weapons, such as the Phoenix. This option applies to clients only; using it on the server has no effect.
 
 **Other Options:**
-` `-launched`: Skips the launcher (only on `main.exe`)
+- `-launched`: Skips the launcher (only on `main.exe`)
 - `-makemovie`: Causes the demo system to save a screenshot of every frame during playback.
 - `-mission <name>`: Loads the specified mission file at startup.
 - `-nocrashbox`: Disables the error dialog displayed if Descent3 crashes.

@@ -46,7 +46,7 @@ The following command-line options are available in Descent 3. You can set comma
 - `-mouseman`: Enables special handling for the Logitech MouseMan.
 - `-mousesens <scale>`: Adjusts the sensitivity of the mouse when not using mouselook mode.
 
-**Multiplayer and Network Options**
+**Multiplayer and Network Options:**
 - `-audiotauntdelay <time>`: Sets the time in seconds the a user must wait after sending an audio taunt before he or she is able to send another. This option is only active when starting a server.
 - `-autoexec <file>`: Specifies the full path and file name of the multiplayer config file to be loaded and executed when a multiplayer game is initialized.
 - `-dedicated <config file>`: Starts a dedicated server.

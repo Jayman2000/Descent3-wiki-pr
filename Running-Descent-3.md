@@ -46,6 +46,22 @@ The following command-line options are available in Descent 3. You can set comma
 - `-mouseman`: Enables special handling for the Logitech MouseMan.
 - `-mousesens <scale>`: Adjusts the sensitivity of the mouse when not using mouselook mode.
 
+**Performance Options:**
+- `-bumped`: Enables hardware bump-mapping on cards that support it, such as the Matrox G400.
+- `-fastdemo`: Causes a demo to play back at the highest speed your computer is capable of.
+- `-forcelightmaps`: Forces the use of lightmaps, even the Default Detail Level is set to Low in the launcher setup.
+- `-framecap <fps>`: Limits the framerate to the number of frames per second specified.
+- `-highvidmem`: Causes 2 MB Voodoo 1 cards to behave as if they had more memory.
+- `-nocompress`: Turns off S3TC texture compression for cards that support it.
+- `-nolightmaps`: Disables lightmaps. This will improve performance on low-end video cards.
+- `-nomotionblur`: Disables motion blur on robots (Pentium III only).
+- `-nomultitexture`: Disables single-pass multitexturing. This option could fix problems due to buggy drivers on future video cards.
+- `-nooutdoorfog`: Disables fog on the terrain under Direct3D. This may improve performance on some cards.
+- `-nopentium3`: Disables detection of the Pentium III processor.
+- `-nosatomega`: Disables alpha saturation on the omega cannon effect.
+- `-subpixelcorrect`: Adjusts for subpixel correction under Direct3D for cards that do not support it.
+- `-nosparkles`: Disables powerup sparkles (Pentium III only).
+
 **Multiplayer and Network Options:**
 - `-audiotauntdelay <time>`: Sets the time in seconds the a user must wait after sending an audio taunt before he or she is able to send another. This option is only active when starting a server.
 - `-autoexec <file>`: Specifies the full path and file name of the multiplayer config file to be loaded and executed when a multiplayer game is initialized.
@@ -62,20 +78,11 @@ The following command-line options are available in Descent 3. You can set comma
 - `-useport <port>`: Specifies the port that TCP/IP and IPX will use. The default is 2092.
 - `-usesmoothing`: Enables code to smooth the interpolation for fast-moving objects. This will fix "skipping" problems with fast weapons, such as the Phoenix. This option applies to clients only; using it on the server has no effect.
 
-
 **Other Options:**
-- `-fastdemo`: Causes a demo to play back at the highest speed your computer is capable of.
-- `-forcelightmaps`: Forces the use of lightmaps, even the Default Detail Level is set to Low in the launcher setup.
-- `-framecap <fps>`: Limits the framerate to the number of frames per second specified.
-- `-highvidmem`: Causes 2 MB Voodoo 1 cards to behave as if they had more memory.
 - `-makemovie`: Causes the demo system to save a screenshot of every frame during playback.
 - `-mission <name>`: Loads the specified mission file at startup.
-- `-nocompress`: Turns off S3TC texture compression for cards that support it.
 - `-nocrashbox`: Disables the error dialog displayed if Descent3 crashes.
-- `-nopentium3`: Disables detection of the Pentium III processor.
-- `-nomotionblur`: Disables motion blur on robots (Pentium III only).
-- `-nosatomega`: Disables alpha saturation on the omega cannon effect.
-- `-nosparkles`: Disables powerup sparkles (Pentium III only).
+- `-pilot <name>`: Specifies the pilot to use, skipping the pilot selection dialog when the game starts.
 - `-setdir <path>`: Specifies the working directory for Descent 3.
 - `-timetest <file>`: Causes Descent 3 to play back the specified demo file upon startup.
 - `-useexedir`: Tells Descent 3 to use the directory in which the executable is located as the working directory.

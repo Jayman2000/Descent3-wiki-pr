@@ -5,20 +5,19 @@
 ## System Requirements
 Minimum:
 
-    A 200MHz Pentium processor
-    Windows 95, 98, or NT
-    32MB RAM
-    3D accelerator video card with 4 MB of texture RAM
-    210 MB hard disk space
-    DirectX 6 certified sound card
-    If you have Windows 95 or Windows 98, DirectX 6.1 software
-    If you have Windows NT 4.0, Service Pack 3 or greater
+- A 200MHz Pentium processor
+- 32MB RAM
+- 3D accelerator video card with 4 MB of texture RAM
+- 210 MB hard disk space
+- DirectX 6 certified sound card
+- If you have Windows 95 or Windows 98, DirectX 6.1 software
+- If you have Windows NT 4.0, Service Pack 3 or greater
 
 Recommended:  
 
-    A Pentium II 300MHz processor
-    64MB RAM
-    500 MB hard disk space
+- A Pentium II 300MHz processor
+- 64MB RAM
+- 500 MB hard disk space
 
 ## Command-Line Options
 The following command-line options are available in Descent 3. You can set command-line options on the Misc. tab of the Setup section of the Descent 3 launcher. Case is not significant in command-line options.

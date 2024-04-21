@@ -20,7 +20,7 @@ Recommended:
 - 500 MB hard disk space
 
 ## Command-Line Options
-The following command-line options are available in Descent 3. You can set command-line options on the Misc. tab of the Setup section of the Descent 3 launcher. Case is not significant in command-line options.
+The following command-line options are available in Descent 3. You can set command-line options on the Misc. tab of the Setup section of the Descent 3 launcher or by creating a shortcut to `main.exe`. Case is not significant in command-line options.
 
 **Display Options:**
 - `-aspect <value>`: Specifies the screen aspect ratio for non-standard displays, such as wide-screen TVs.
@@ -79,6 +79,7 @@ The following command-line options are available in Descent 3. You can set comma
 - `-usesmoothing`: Enables code to smooth the interpolation for fast-moving objects. This will fix "skipping" problems with fast weapons, such as the Phoenix. This option applies to clients only; using it on the server has no effect.
 
 **Other Options:**
+` `-launched`: Skips the launcher (only on `main.exe`)
 - `-makemovie`: Causes the demo system to save a screenshot of every frame during playback.
 - `-mission <name>`: Loads the specified mission file at startup.
 - `-nocrashbox`: Disables the error dialog displayed if Descent3 crashes.

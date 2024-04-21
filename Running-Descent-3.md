@@ -46,9 +46,22 @@ The following command-line options are available in Descent 3. You can set comma
 - `-mouseman`: Enables special handling for the Logitech MouseMan.
 - `-mousesens <scale>`: Adjusts the sensitivity of the mouse when not using mouselook mode.
 
-**Network and Multiplayer Options:**
+**Multiplayer and Network Options**
+- `-audiotauntdelay <time>`: Sets the time in seconds the a user must wait after sending an audio taunt before he or she is able to send another. This option is only active when starting a server.
 - `-autoexec <file>`: Specifies the full path and file name of the multiplayer config file to be loaded and executed when a multiplayer game is initialized.
+- `-dedicated <config file>`: Starts a dedicated server.
+- `-gamespyport <port>`: Specifies a port for to listen for GameSpy requests. The default is 20142.
+- `-gspyfile <config file>`: Specifies a GameSpy configuration file to use (default is gamespy.cfg).
+- `-httpproxy <addr>` or `-httpproxy <addr:port>`: Specifies an HTTP proxy server. Descent 3 uses HTTP to auto-download a mission; use this option if your ISP requires a proxy server for HTTP connections. If the first form is used, the port value defaults to 80.
+- `-nooutragelogo`: Disables the Outrage logo that is normally displayed for five seconds at the start of a multiplayer game.
+- `-nomultibmp`: Disables sending or receiving in-game custom bitmaps for ships.
 - `-nonetwork`: Disables all network multiplayer functionality.
+- `-playermessages`: Disables all weapon-related HUD messages in multiplayer games.
+- `-pxoport <port>`: Specifies the port that PXO will tell clients to use when contacting a server. The default is 2092.
+- `-useip <IP>`: Binds Descent 3 to this IP address. Use this option to tell D3 which IP address to use if your computer has multiple IP addresses.
+- `-useport <port>`: Specifies the port that TCP/IP and IPX will use. The default is 2092.
+- `-usesmoothing`: Enables code to smooth the interpolation for fast-moving objects. This will fix "skipping" problems with fast weapons, such as the Phoenix. This option applies to clients only; using it on the server has no effect.
+
 
 **Other Options:**
 - `-fastdemo`: Causes a demo to play back at the highest speed your computer is capable of.

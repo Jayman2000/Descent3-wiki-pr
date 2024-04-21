@@ -21,11 +21,7 @@ Recommended:
     500 MB hard disk space
 
 ## Command-Line Options
-The following command-line options are available in Descent 3.
-You can set command-line options on the Misc. tab of the Setup 
-section of the Descent 3 launcher.  Case is not significant in
-command-line options.
-
+The following command-line options are available in Descent 3. You can set command-line options on the Misc. tab of the Setup section of the Descent 3 launcher. Case is not significant in command-line options.
 
 **Display Options:**
 - `-aspect <value>`: Specifies the screen aspect ratio for non-standard displays, such as wide-screen TVs.
@@ -36,6 +32,7 @@ command-line options.
 - `-superlowmem`: Uses the `-lowmem` settings and further scales down textures to conserve memory.
 - `-vsync`: Turns on Vertical Sync. The flag will be enabled in the registry so it will be on when the game is run again.
 - `-width <width>`: Sets the screen resolution to the specified width, if possible.
+- `-windowed`: Runs the game in a window.
 - `-z32bit`: Enables the 32-bit z-buffer on cards that support it, such as the Matrox G400.
 
 **Audio Options:**

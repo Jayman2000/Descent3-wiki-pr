@@ -4,7 +4,7 @@ Descent 3 was released as open source on 04/16/2024 and is licensed under GPL-3.
 [Running Descent 3](https://github.com/DescentDevelopers/Descent3/wiki/Running-Descent-3): This page will assist in running the game and describes available CLI arguments.
 
 ## Original 1.5 Patch Notes
-### Fixes for Version 1.5.0:
+### Fixes for Version 1.5.0
 
 - Fixed a checksum problem introduced in 1.4 that prevented some levels from being played across platforms (for example, Windows and Linux).
 - Force feedback now works under Windows 2000.
@@ -47,7 +47,7 @@ Descent 3 was released as open source on 04/16/2024 and is licensed under GPL-3.
 - Fixed a couple problems with the level auto-download system.
 - In demos of multiplayer games, player ships no longer switch between models for different ships.
 
-### New features for Version 1.5.0:
+### New features for Version 1.5.0
 - Increased by 20 the maximum number of player ships.
 - Increased by 300 the maximum number of textures.
 - Increased by 100 the maximum number of objects.
@@ -59,5 +59,5 @@ problems with the omega under 1.5.
 - Added `-datacheck` command-line option. If you get a message on the loading screen that your mission has data errors, use this option and see the file `datacheck.out` for a description of the data errors in your mission.
 - In multiplayer, a HUD message is shown when a player's ship is changed because the selected ship is not allowed.
 
-### Known issues in Version 1.5.0:
+### Known issues in Version 1.5.0
 - Because of limitations in the precision of Descent 3's timer, high framerates are not displayed accurately on the HUD.

@@ -1,4 +1,5 @@
-# Descent 3 Open Source
+![d3 (1)](https://github.com/DescentDevelopers/Descent3/assets/47716344/c38d1547-8c0e-49b9-ac65-24423d2d5a09)
+
 Descent 3 was released as open source on 04/16/2024 and is licensed under GPL-3.0. This wiki serves as a guide to help readers understand the codebase and play the game. Our mission is to provide the best vanilla experience possible on modern hardware, starting with a "Vanilla 1.5 Stable" build and adding QoL improvements from there.
 
 [Running Descent 3](https://github.com/DescentDevelopers/Descent3/wiki/Running-Descent-3): This page will assist in running the game and describes available CLI arguments.

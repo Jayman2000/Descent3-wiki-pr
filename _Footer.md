@@ -1,0 +1,2 @@
+## Contributing to the Wiki
+You can use `git clone https://github.com/DescentDevelopers/Descent3.wiki.git` to download this wiki. You can then modify the files and add new ones. Please upload modified or new files into issues and use the `wiki` issue template. For new or modified wiki pages, please use the [GitHub Markdown Format](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).

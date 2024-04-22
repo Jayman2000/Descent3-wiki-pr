@@ -1,3 +1,5 @@
+![d3 (1)](https://github.com/DescentDevelopers/Descent3/assets/47716344/8fa6bf0e-0ec0-4130-8fad-fa20bbd93a31)
+
 # Table of Contents
 1. [System Requirements](https://github.com/DescentDevelopers/Descent3/wiki/Running-Descent-3#system-requirements)
 2. [Command-Line Options](https://github.com/DescentDevelopers/Descent3/wiki/Running-Descent-3#command-line-options)

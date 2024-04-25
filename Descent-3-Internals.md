@@ -1,4 +1,5 @@
-# [WIP] Descent 3 Internals
+![d3 (1)](https://github.com/DescentDevelopers/Descent3/assets/47716344/8fa6bf0e-0ec0-4130-8fad-fa20bbd93a31)
+
 This page explains terminology seen in the source code and hopes to inform how the game engine works.
 
 ## B.O.A. -- Big Ol' Array

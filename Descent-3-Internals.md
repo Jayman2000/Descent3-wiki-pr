@@ -1,6 +1,9 @@
 ![d3 (1)](https://github.com/DescentDevelopers/Descent3/assets/47716344/8fa6bf0e-0ec0-4130-8fad-fa20bbd93a31)
 
-This page explains terminology seen in the source code and hopes to inform how the game engine works.
+# Table of Contents
+1. [Big Ol' Array](https://github.com/DescentDevelopers/Descent3/wiki/Descent-3-Internals#boa----big-ol-array)
+2. [D.A.L.L.A.S.](https://github.com/DescentDevelopers/Descent3/wiki/Descent-3-Internals#dallas----dont-ask-luke-for-levels-and-scripts)
+3. [Osiris](https://github.com/DescentDevelopers/Descent3/wiki/Descent-3-Internals#osiris---mission-memory-system)
 
 ## B.O.A. -- Big Ol' Array
 This system tells the game what rooms are visible from where--essentially a Potentially Visible Set with some extra features. It may also store pathing costs needed to get from one room to another. `BOA Not Valid!` comes from this and can lead to rendering errors in a level or demo playback.

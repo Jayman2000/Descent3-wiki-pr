@@ -1,6 +1,6 @@
 ![image](https://github.com/DescentDevelopers/Descent3/assets/47716344/a772b8e6-4b2f-4606-aa3f-35208189d11b)
 
-# Descent 3 Open Source Weekly Summary: Apr 22 - Apr 27 2024
+# Weekly Summary: Apr 22 - Apr 27 2024
 
 Repository Improvements:
 - Created wiki pages for `Descent 3 Internals` and `Running Descent 3`.

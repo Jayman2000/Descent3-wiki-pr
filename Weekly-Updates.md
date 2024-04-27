@@ -4,7 +4,7 @@
 
 Repository Improvements:
 - Created wiki pages for `Descent 3 Internals`, `Running Descent 3`, and `Weekly Updates`.
-- Added new issue templates.
+- Added new issue and pull request templates.
 - Prettified the readme.
 - The CI no longer runs if no changes are made to code (can be manually run).
 

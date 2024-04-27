@@ -1,5 +1,7 @@
 ![image](https://github.com/DescentDevelopers/Descent3/assets/47716344/a772b8e6-4b2f-4606-aa3f-35208189d11b)
 
+The Descent 3 Maintainers are not the sole contributors to this repository. Many of the below improvements and bug fixes were the result of contributors, of which we are extremely thankful.
+
 # Weekly Summary: Apr 22 - Apr 27 2024
 
 Repository Improvements:

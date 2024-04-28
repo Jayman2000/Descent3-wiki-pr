@@ -24,7 +24,7 @@ Recommended:
 - 500 MB hard disk space
 
 ## Command-Line Options
-The following command-line options are available in Descent 3. You can set command-line options on the Misc. tab of the Setup section of the Descent 3 launcher or by creating a shortcut to `main.exe`. Case is not significant in command-line options.
+The following command-line options are available in Descent 3. You can set command-line options on the Misc. tab of the Setup section of the Descent 3 launcher or by creating a shortcut to `main.exe`. Case is not significant in command-line options, and `-`, `--`, and `+` are all accepted.
 
 | **Display Options**       | **Description**                                                                                       |
 |---------------------------|-------------------------------------------------------------------------------------------------------|

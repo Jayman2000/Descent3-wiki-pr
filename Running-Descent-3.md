@@ -4,6 +4,7 @@
 1. [System Requirements](https://github.com/DescentDevelopers/Descent3/wiki/Running-Descent-3#system-requirements)
 2. [Command-Line Options](https://github.com/DescentDevelopers/Descent3/wiki/Running-Descent-3#command-line-options)
 3. [Debug Commands](https://github.com/DescentDevelopers/Descent3/wiki/Running-Descent-3#debug-commands)
+4. [Multiplayer Compatibility](https://github.com/DescentDevelopers/Descent3/wiki/Running-Descent-3#multiplayer-compatibility)
 
 ## System Requirements
 Minimum:
@@ -206,3 +207,11 @@ When using the debug build of Descent 3, the following keyboard debug combinatio
 | DEL + Alt + Shift + 0 | View version status                           |
 | DEL + Alt + Shift + - | View multi-team status                        |
 | DEL + Alt + Shift + = | View sync status                              |
+
+## Multiplayer Compatibility
+To play Descent 3 v1.5 multiplayer, you will need a 1.4-patched `dfmc.dll` file: the version from the CD will not work. You can connect to the following 1.5 servers:
+
+`96.9.208.115:2092` - Hosted by DescentMax7930, v1.5 Stable  
+`64.44.131.41:2092` - Hosted by DescentMax7930, v1.5 Piccu fork (by InsanityBringer)
+
+Bear in mind that v1.5 Stable is not perfect and multiplayer is largely untested as of yet. Please have fun while testing and report issues as encountered.

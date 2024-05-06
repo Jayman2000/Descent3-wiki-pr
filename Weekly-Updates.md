@@ -23,7 +23,8 @@ Bug Fixes:
 Adjustments:
 - Linux and MacOS have had some of icculus' 64bit code implemented.
 - Linux and MacOS have had some of icculus' SDL2 code implemented.
-- Windows users can now use esxtra mouse buttons in the configuration options.
+- Windows users can now use extra mouse buttons in the configuration options.
+- Game assets are now case insensitive when being loaded.
 
 General Updates:
 - We have decided on using the `d2x` mve library. It has been traced to [Fallout 1 & 2](https://fodev.net/files/fo2/tools.html), which was reverse-engineered, and further modifications to it were made under GPL-2. We'd love some assistance with this, check out [#289](https://github.com/DescentDevelopers/Descent3/pull/289) if you're interested!

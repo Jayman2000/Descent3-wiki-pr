@@ -7,6 +7,8 @@
 4. [Multiplayer Compatibility](https://github.com/DescentDevelopers/Descent3/wiki/Running-Descent-3#multiplayer-compatibility)
 
 ## System Requirements
+Disclaimer: These are the legacy requirements, so we use them as our base. As we made modernization changes, requirements to run Descent 3 may change.
+
 Minimum:
 
 - A 200MHz Pentium processor

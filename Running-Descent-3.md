@@ -86,7 +86,7 @@ The following command-line options are available in Descent 3. You can set comma
   </tr>
 
   <tr>
-    <th colspan="2">Controls Options</th>
+    <th colspan="2">Input Options</th>
   </tr>
   <tr>
     <td><code>-alternatejoy -directinput</code></td>
@@ -115,10 +115,6 @@ The following command-line options are available in Descent 3. You can set comma
 
   <tr>
     <th colspan="2">Performance Options</th>
-  </tr>
-  <tr>
-    <td><code>-bumped</code></td>
-    <td>Enables hardware bump-mapping on cards that support it, such as the Matrox G400.</td>
   </tr>
   <tr>
     <td><code>-fastdemo</code></td>
@@ -235,10 +231,6 @@ The following command-line options are available in Descent 3. You can set comma
 
   <tr>
     <th colspan="2">Other Options</th>
-  </tr>
-  <tr>
-    <td><code>-launched</code></td>
-    <td>Skips the launcher (only on <code>main.exe</code>).</td>
   </tr>
   <tr>
     <td><code>-makemovie</code></td>

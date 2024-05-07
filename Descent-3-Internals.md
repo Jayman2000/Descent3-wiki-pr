@@ -30,9 +30,6 @@ Each file entry contains the following fields:
 - Flags: a 32-bit unsigned int representing extra information
 - Length: a 32-bit unsigned int representing the length of the file in bytes
 - Timestamp: a 32-bit unsigned int
-- Real Path: a `std::filesystem::path` representing the real path of the file (optional)**
-
-The "real path" field might be used for debugging. It would allow for easy access and modification of individual files.
 
 #### File Data
 Following the file table, the actual file data is stored. Each file's data is stored consecutively after the file table, with each file's data immediately following its corresponding entry in the table.

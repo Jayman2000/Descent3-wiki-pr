@@ -4,6 +4,7 @@
 1. [Big Ol' Array](https://github.com/DescentDevelopers/Descent3/wiki/Descent-3-Internals#boa----big-ol-array)
 2. [D.A.L.L.A.S.](https://github.com/DescentDevelopers/Descent3/wiki/Descent-3-Internals#dallas----dont-ask-luke-for-levels-and-scripts)
 3. [Osiris](https://github.com/DescentDevelopers/Descent3/wiki/Descent-3-Internals#osiris---mission-memory-system)
+4. [HOG Files](https://github.com/DescentDevelopers/Descent3/wiki/Descent-3-Internals#hog-files)
 
 ## B.O.A. -- Big Ol' Array
 This system tells the game what rooms are visible from where--essentially a Potentially Visible Set with some extra features. It may also store pathing costs needed to get from one room to another. `BOA Not Valid!` comes from this and can lead to rendering errors in a level or demo playback.
@@ -13,3 +14,5 @@ A deprecated visual level scripting system. Generates cpp code. DALLAS could imp
 
 ## Osiris - Mission Memory System
 Osiris, written by Jeff Slutter, is akin to an API; it reads and manages compiled script libraries. Without scripts, levels become sandboxes where the player can do anything with no guidance. Osiris manages everything in missions from timers, to objects, to objective flags.
+
+## HOG Files

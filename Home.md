@@ -55,9 +55,9 @@ Descent 3 was released as open source on 04/16/2024 and is licensed under GPL-3.
 - Increased by 300 the maximum number of textures.
 - Increased by 100 the maximum number of objects.
 - Increased by 200 the maximum number of polygon models.
-- Added "-nosatomega" command-line option to disable alpha effects on omega cannon. Try this if you have speed or crashing
+- Added `-nosatomega` command-line option to disable alpha effects on omega cannon. Try this if you have speed or crashing
 problems with the omega under 1.5.
-- Added -nocrashbox command-line option to disable the error dialog displayed if the game crashes.
+- Added `-nocrashbox` command-line option to disable the error dialog displayed if the game crashes.
 - Improvements for some players using NAT routers. If you're having trouble playing D3 using a NAT, enable port/host forwarding on the NAT server, then specify your port with the the `-useport` and `-pxoport` command-line options.
 - Added `-datacheck` command-line option. If you get a message on the loading screen that your mission has data errors, use this option and see the file `datacheck.out` for a description of the data errors in your mission.
 - In multiplayer, a HUD message is shown when a player's ship is changed because the selected ship is not allowed.

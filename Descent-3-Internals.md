@@ -7,7 +7,7 @@
 4. [HOG Files](https://github.com/DescentDevelopers/Descent3/wiki/Descent-3-Internals#hog-files)
 
 ## B.O.A. -- Big Ol' Array
-This system tells the game what rooms are visible from where--essentially a Potentially Visible Set with some extra features. It may also store pathing costs needed to get from one room to another. `BOA Not Valid!` comes from this and can lead to rendering errors in a level or demo playback. That error is caused by an invalid checksum between the engine and level file--which is in turn due to differences in compilers.
+This system tells the game what rooms are visible from where--essentially a Potentially Visible Set with some extra features. It may also store pathing costs needed to get from one room to another. `BOA Not Valid!` comes from this and can lead to rendering errors in a level or demo playback. That error is caused by an invalid checksum between the engine and level file--which is in turn due to differences in compilers (specifically, VC6 float math doesn't match current float math).
 
 A band-aid solution is to disable the error message, since invalid BOA just causes the engine to recompute the geometry--pretty quick on modern systems. In reality, a more complete solution is to create a checksum implementation that emulates the original.
 

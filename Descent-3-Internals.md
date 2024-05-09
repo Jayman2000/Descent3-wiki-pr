@@ -16,7 +16,7 @@ A deprecated visual level scripting system. Generates cpp code. DALLAS could imp
 Osiris, written by Jeff Slutter, is akin to an API; it reads and manages compiled script libraries. Without scripts, levels become sandboxes where the player can do anything with no guidance. Osiris manages everything in missions from timers, to objects, to objective flags.
 
 ## HOG Files
-HOG files, short for Hidden Game Object files, are archive format files common in the Descent series and packages textures, sounds, levels, and scripts. In Descent 3, the HOG2 format is used. A quick breakdown of the HOG2 format follows:
+HOG files, short for Hidden Game Object files, are archive format files common in the Descent series and package textures, sounds, levels, and scripts. In Descent 3, the HOG2 format is used. A quick breakdown of the HOG2 format follows:
 
 #### HOG Header
 The header starts with a 4-byte identifier, set to `HOG2`. Following that is a 32-bit unsigned integer `NFILES`, representing the total number of files included in the hog. Finally, we have the file data offset, a 32-bit unsigned integer representing the offset where actual file data begins. In `HOG2`, file data begins at byte offset 68. After that, there is an array of 56 bytes filled with `0xFF` which serves as reserved header space.

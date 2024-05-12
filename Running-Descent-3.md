@@ -253,10 +253,6 @@ The following command-line options are available in Descent 3. You can set comma
     <td>Specifies the working directory for Descent 3.</td>
   </tr>
   <tr>
-    <td><code>-timetest &lt;file&gt;</code></td>
-    <td>Causes Descent 3 to play back the specified demo file upon startup.</td>
-  </tr>
-  <tr>
     <td><code>-useexedir</code></td>
     <td>Tells Descent 3 to use the directory in which the executable is located as the working directory.</td>
   </tr>

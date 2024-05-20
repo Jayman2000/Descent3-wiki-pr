@@ -6,7 +6,7 @@
 3. [Debug Commands](https://github.com/DescentDevelopers/Descent3/wiki/Running-Descent-3#debug-commands)
 4. [Multiplayer Compatibility](https://github.com/DescentDevelopers/Descent3/wiki/Running-Descent-3#multiplayer-compatibility)
 
-## System Requirements
+# System Requirements
 Disclaimer: These are the legacy requirements, so we use them as our base. As we made modernization changes, requirements to run Descent 3 may change.
 
 Minimum:
@@ -25,7 +25,7 @@ Recommended:
 - 64MB RAM
 - 500 MB hard disk space
 
-## Command-Line Options
+# Command-Line Options
 The following command-line options are available in Descent 3. You can set command-line options on the Misc. tab of the Setup section of the Descent 3 launcher or by creating a shortcut to `main.exe`. Case is not significant in command-line options, and `-`, `--`, and `+` are all accepted.
 
 <table>
@@ -259,7 +259,7 @@ The following command-line options are available in Descent 3. You can set comma
 </table>
 
 
-## Debug Commands
+# Debug Commands
 When using the debug build of Descent 3, the following keyboard debug combinations are available. These debug keys require you to press DEL in addition to the key combination below.
 
 | Key Combination          | Action                                         |
@@ -368,7 +368,7 @@ When using the debug build of Descent 3, the following keyboard debug combinatio
 | DEL + Alt + Shift + - | View multi-team status                        |
 | DEL + Alt + Shift + = | View sync status                              |
 
-## Multiplayer Compatibility
+# Multiplayer Compatibility
 To play Descent 3 v1.5 multiplayer, you will need a 1.4-patched `dfmc.dll` file: the version from the CD will not work. You can connect to the following 1.5 servers:
 
 `96.9.208.115:2092` - Hosted by DescentMax7930, v1.5 Stable  

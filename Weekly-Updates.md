@@ -6,6 +6,31 @@ Multiplayer servers:
 `96.9.208.115:2092` - Hosted by DescentMax7930, v1.5 Upstream  
 `64.44.131.41:2092` - Hosted by DescentMax7930, Piccu Engine (by InsanityBringer)
 
+# Weekly Summary: May 07 2024 - May 20 2024
+
+Repository Improvements:
+- A lot of code cleanups have taken place. Rock n' Ride code was removed along with unused serial code, unused header files, the software renderer, prebuilt d3m netgames, and a lot of stuff from `init.cpp`. Thanks Arcnor!
+- The OpenGL renderer saw a cleanup and refactor. Thanks Arcnor!
+- The GPLv3 license header has been joined with the historical comments, which should clean things up for IDEs that hide the first comment block from code.
+- MD5 code has been changed from RSA Technologies, avoiding a potential license headache. Thanks Parabolicus!
+- Spdlog dependency has been removed, but the logging module remains.
+- Any external dependencies will be moved to the `third_party` directory over time.
+
+Bug Fixes:
+- Imported a Piccu bugfix where HUD's CustomText2 would be offscreen on large resolutions. This affected Level 5's reactor percentages.
+- The dedicated server no longer crashes on startup and shutdown. Thanks Pzychotic!
+
+Adjustments:
+- Ingame screenshots now save as .png files for easier sharing. Thanks Arcnor!
+- Window mode in debug builds has been adjusted, and for now it no longer works in release builds. Thanks Pzychotic!
+- The notorious "BOA Not Valid" error has been silenced.
+- The max render distance has been bumped, an improvement brought from Piccu.
+
+General Updates:
+The Descent 3 Maintainers would like to generally remind everyone that this should never be treated like a full-time job or even an overly-professional setting. It's a cherished game, and a hobby should never become a burden. Many people have contributed to this upstream source out of a passion for programming or for Descent 3, sometimes both. Please remember to be kind and respectful to others. Nothing is irreversible in code.
+
+You may have noticed some slowdown in the past week. Real life obligations call, but we are welcome to outside assistance in pull request reviews! We are also looking for some additional help to bring SDL2 to Windows to replace DirectX. If this is something you're interested in, let us know!
+
 # Weekly Summary: Apr 28 - May 06 2024
 
 ## Upstream Source

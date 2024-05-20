@@ -1,6 +1,6 @@
 ![d3 (1)](https://github.com/DescentDevelopers/Descent3/assets/47716344/8fa6bf0e-0ec0-4130-8fad-fa20bbd93a31)
 
-# Table of Contents
+## Table of Contents
 1. [Big Ol' Array](https://github.com/DescentDevelopers/Descent3/wiki/Descent-3-Internals#boa----big-ol-array)
 2. [D.A.L.L.A.S.](https://github.com/DescentDevelopers/Descent3/wiki/Descent-3-Internals#dallas----dont-ask-luke-for-levels-and-scripts)
 3. [Osiris](https://github.com/DescentDevelopers/Descent3/wiki/Descent-3-Internals#osiris---mission-memory-system)

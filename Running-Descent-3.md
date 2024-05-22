@@ -233,6 +233,10 @@ The following command-line options are available in Descent 3. You can set comma
     <th colspan="2">Other Options</th>
   </tr>
   <tr>
+    <td><code>-logfile</code></td>
+    <td>Generates a logfile `d3.log` if using the Debug build. All `mprintf` statements output to the logfile.</td>
+  </tr>
+  <tr>
     <td><code>-makemovie</code></td>
     <td>Causes the demo system to save a screenshot of every frame during playback.</td>
   </tr>
